@@ -1,0 +1,187 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(0, 51, 102);
+}
+
+header {
+    background-color: #4CAF50;
+    color: rgb(250, 247, 247);
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(238, 233, 233);
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: rgb(71, 65, 65);
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+section {
+    margin: 20px 0;
+}
+/* Styling categories list */
+section ol {
+    list-style: none;
+    counter-reset: category-counter;
+}
+
+section ol li {
+    margin-bottom: 10px;
+}
+
+section ol li ol {
+    list-style: none;
+}
+
+section ol li:before {
+    counter-increment: category-counter;
+    content: counter(category-counter) ". ";
+    font-weight: bold;
+}
+
+section ol li ol li:before {
+    content: counter(category-counter) "." counter(subcategory-counter) " ";
+    counter-increment: subcategory-counter;
+    font-weight: normal;
+    margin-right: 5px;
+}
+/* CSS for Companies Offering Freelancing Work */
+section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section ul li {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+}
+
+section ul li:last-child {
+    border-bottom: none;
+}
+
+section ul li h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+section ul li p {
+   
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
+}
+/* CSS for Welcome Message */
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    border-radius: 50px;
+    border: 6px solid #73AD21;
+    background-color: #ddd;
+    margin: 1;
+    padding: 1%;
+    
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+section p {
+    border-radius: 50px;
+    border: 6px solid#4CAF50;
+    padding: 20px;
+    width: 1400px;
+    height: 150px;
+    background-color:rgb(0, 51, 102);
+    font-size: 1em;
+    color: #ddd;
+    line-height: 1.6;
+}
+
+/* CSS for How Teens Can Learn Skills Through Freelancing and How Companies Can Benefit from */
+section:nth-child(n+3) h2 {
+    background-color:#ddd;
+    margin: 1;
+    padding: 1%;
+}
+section:nth-child(n+3) h2 {
+    color:#333;
+}
+
+section:nth-child(n+3) p {
+    color: #ddd;
+}
+#a{
+    border-radius: 50px;
+    border: 5px solid#4CAF50;
+    background-color: rgb(0, 51, 102);
+    height: 1%;
+   color: #ddd;
+}
+#b{
+    border-radius: 50px;
+    border: 5px solid#4CAF50;
+    background-color: rgb(0, 51, 102);
+    height: 1%;
+   color: #ddd;
+}
+#c{
+    border-radius: 5px;
+    border: 5px solid#4CAF50;
+    background-color: rgb(0, 51, 102);
+    height: 1%;
+   color: #ddd;
+}
+.d{
+   
+   color: #ddd;
+}
+#e{
+    border-radius: 50px;
+    border: 5px solid#4CAF50;
+    background-color:rgb(0, 51, 102);
+    height: 1%;
+   color: #ddd;
+}
+.f{
+   
+    background-color: rgb(0, 51, 102);
+    height : 1%;
+   color : #ddd;
+}
+.g{
+    border-radius: 50px;
+    border: 5px solid#4CAF50;
+    background-color: rgb(0, 51, 102);
+    height : 1%;
+   color : #ddd;
+}
